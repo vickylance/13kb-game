@@ -1,0 +1,19 @@
+{
+  "name": "13kb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:parcel": "parcel build src/index.js --experimental-scope-hoisting"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
